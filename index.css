@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: 40vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button#checkout_btn{
+    margin-left: 1rem;
+}
+
+input#pass_folder {
+    background: white;
+}
+
+.containerform{
+    width: 50vw;
+    /* background: #FEFEFE  !important; */
+    background: rgb(247, 246, 246)  !important;
+    padding:10px;    
+    margin:3vh auto;
+    border-radius:30px;
+
+}
+button#checkout_btn {
+    margin-left: -5rem;
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        width: 70vw;
+    }
+    form{
+        width: 50vw;
+    }
+}
